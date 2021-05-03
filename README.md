@@ -14,3 +14,6 @@ The best results came out with the undersampling technique, although no resampli
 
 
 Logistic regression on the undersampled data found 83 out of the 98 fraud cases, and falsely predicted fraud in 51 cases only. The cross-validated precision score on the training data was 1. I found two other models (with different regularization strength) where the model resulted in the same (1) precision score but achieved a bit better result on this particular test set. They both found 80 out of 98 fraud cases but predicted fraud in only 17 or 18 other cases, where the true label was ‘regular’ (not fraud) transactions.
+
+
+Please see the file "Comments_to_Creditcard_fraud_notebook.docx" for further comments.
